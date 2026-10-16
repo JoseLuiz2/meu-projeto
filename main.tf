@@ -128,4 +128,3 @@ resource "docker_container" "grafana" {
     name = docker_network.monitoring.name
   }
 }
-
